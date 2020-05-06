@@ -14,16 +14,13 @@ function logWhisper(string) {
   console.log(string.toLowerCase());
 }
 
-
 function sayHiToGrandma(string) {
-  swtich(string) {
-    case whisper(string):
+  if (string === whisper(string)) {
     console.log("I can't hear you!");
-    break;
-    case shout(string):
+  } else if (string === shout(string)) {
     console.log("YES INDEED!");
-    break;
-    case "I love you, Grandma."
-    console.log("I love you, too.");
+  }
+  if (string === "I love you, Grandma.") {
+    return "I love you, too."
   }
 }
